@@ -28,12 +28,12 @@
         header {
             padding: 20px;
             background-color: #12193C; 
-            color:#7487AA;
+            color:#ffffff;
             
         }
         
         header h2 {
-            color: #7487AA;
+            color: #aac5f7;
         }
         
         footer {
@@ -52,4 +52,12 @@
 
         } 
 
+        .center {
+
+            text-align: center;
+        }
+
+        .projectpad {
+            class: mt-3;
+        }
         
