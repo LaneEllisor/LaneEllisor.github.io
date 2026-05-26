@@ -59,5 +59,12 @@
 
         .about-section { margin-left: 40px; }
 
+        .carousel-caption {
+            background-color:#12193C;
+        }
+        .carousel {
+            border: solid #000000;
+        }
+
 
         

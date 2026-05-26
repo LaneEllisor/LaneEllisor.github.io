@@ -54,7 +54,7 @@
         <!-- navbar -->
         <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
 
-            <div class="container">
+            <div class="container ">
 
                 
 
@@ -63,7 +63,7 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="nucampNavbar">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav ms-5" >
                         <li class="nav-item"><a class="nav-link active" href="home.html"><i class="fa-solid fa-house fa-lg"></i>Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="projects.html"><i class="fa-solid fa-info fa-lg"></i>Projects</a></li>
                         <li class="nav-item"><a class="nav-link" href="skills.html"><i class="fa-solid fa-list fa-lg"></i> Skills</a></li>
@@ -72,7 +72,13 @@
 
                     </ul>
                 </div>
+                
             </div>
+
+
+             <span class="navbar-text me-5">
+                    <a role="button" data-bs-toggle="modal" data-bs-target="#loginModal"><i class="fa-solid fa-right-to-bracket"></i> Login</a>
+            </span>
 
         </nav>
 
@@ -95,10 +101,54 @@
                     </ul>
                     
                 </div>    
-                <div class="col text-center">
+                <!-- <div class="col text-center">
                     <img class="img-thumbnail" src="img/phasediagram.png" alt="Phase Diagram" />
                     <p > A phase diagram from Project 2: Computational Stokes Flow </p>
-                </div>    
+                </div>     -->
+
+                <!-- carousel -->
+                <section class="row row-content">
+                    <div class="col-md-8 mx-auto">
+                        <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel">
+
+
+                            
+
+                            <!-- Carousel -->
+
+                            
+                            <div class="carousel-inner ">
+
+                                
+                                
+
+
+                                <div class="carousel-item active text-center">
+                                    <img class="d-block w-100" src="img/phasediagram.png" alt="Phases" />
+                                    <p class="d-none d-sm-block"> Phase Diagram from Project 2</p>
+                                </div>
+
+
+                                <div class="carousel-item text-center">
+                                    <img class="d-block w-100" src="img/heightrw.png" alt="Height" />
+                                    <p class="d-none d-sm-block"> Wave height from Project 3</p>
+                                </div>
+
+
+                                 <div class="carousel-item text-center">
+                                    <img class="d-block w-100" src="img/solitonmesh.png" alt="Soliton" />
+                                    <p class="d-none d-sm-block"> Soliton Mesh project 3</p>
+                                </div>
+
+         
+
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
             </div>
         </div>
 
@@ -107,7 +157,11 @@
 
     </main>                                  
 
-
+<!-- <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active"></button>
+                                    <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1"></button>
+                                    <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2"></button>
+                                </div> -->
 
 
 
