@@ -1,4 +1,2 @@
-Readme 
-
-homebasics is index 
+README 
 
