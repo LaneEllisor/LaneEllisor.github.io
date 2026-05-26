@@ -1,0 +1,55 @@
+        :root {
+            --primary-navy: #12193C;
+            --secondary-blue: #325582;
+            --accent-blue: #7487AA;
+            --slate-blue: #232F43;          
+
+            --white: #FFFFFF;
+            --off-white: #F5F8FC;
+
+            --text-main: #232F43;
+            --text-light: #7487AA;
+        } 
+
+
+        
+        body {
+            font-family: "DFKai-SB", sans-serif;
+        }
+        
+        h1, h2, h3 {
+            font-family: "DFKai-SB";
+        }
+        
+        h2 {
+            color: #325582;
+        }
+        
+        header {
+            padding: 20px;
+            background-color: #12193C; 
+            color:#7487AA;
+            
+        }
+        
+        header h2 {
+            color: #7487AA;
+        }
+        
+        footer {
+            background-image:linear-gradient(#7487AA,white);
+            padding: 30px 0;
+        }
+        
+        .row-content {
+            padding: 50px 0;
+            border-bottom: 1px ridge;
+            min-height: 200px;
+        }
+    
+        .navbar {
+                background-color: #12193C;
+
+        } 
+
+        
