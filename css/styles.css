@@ -59,12 +59,24 @@
 
         .about-section { margin-left: 40px; }
 
-        .carousel-caption {
-            background-color:#12193C;
+    .carousel, .carousel-inner, .carousel-item, .col-md-4, .col-md-8 {
+            height: 600px;
         }
-        .carousel {
-            border: solid #000000;
-        }
-
 
         
+    .carousel-item img {
+        /* object-fit: contain; */
+         height: 100%;
+            width: 100%;
+    }
+
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        background-color: rgba(37, 45, 54, 0.484); /* Change background color */
+        width: 3rem; /* Make icons larger */
+        height: 3rem;
+        border-radius: 50%;
+    }
+
+
+
+
