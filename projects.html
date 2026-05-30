@@ -1,6 +1,6 @@
 <!-- Projects Page  -->
 <!-- Author: Lane Ellisor -->
-<!-- Last Edited: 06/16/2026-->
+<!-- Last Edited: 06/29/2026-->
 
 <!DOCTYPE html>
 
@@ -26,6 +26,7 @@
 
 <body>
 
+
     <!-- header -->
     <header>
         <div class="container">
@@ -39,6 +40,7 @@
                     <!-- Title and Subtitle -->
                     <h1> Lane Ellisor </h1>
                     <h2> Portfolio </h2>
+                    
                 </div>
 
 
@@ -80,6 +82,10 @@
                     <a role="button" data-bs-toggle="modal" data-bs-target="#loginModal"><i class="fa-solid fa-right-to-bracket"></i> Login</a>
             </span>
 
+            <button class="left-button" onclick="history.back()">Go Back</button>
+
+            
+
         </nav>
 
     <!-- Main Content -->
@@ -88,20 +94,37 @@
         <div class="container">
             <div class="row">
                 
+                <!-- Column 1: Project List -->
                 <div class="col-md-4 mt-3">
                     <h2>My Projects</h2>
                         <p>Here are some of the projects I have worked on:</p>
-                        <pre> This whole page needs to be turned into anchored cards </pre>
                         
-                        <ul >
-                            <li><strong><a href="home.html">Project 1:</a></strong> This website was built using HTML, CSS, and JavaScript.</li>
-                            <li><strong>Project 2:</strong> A computational fluid flow simulation using Python and NumPy.</li>
-                            <li><strong><a href="roguewaves.html">Project 3:</a></strong> Rogue Wave formation and energy exploration using MATLAB and Python</li>
-                            <li><strong><a href="floodanalysis.html">Project 4:</a></strong> Flood Analysis using CDFs</li>
-                            
-                        </ul>
+                        <br>    
+                        <div class="project">
+                            <u> <strong><a href="home.html">Website Development with HTML</a></strong></u>
+                            <p>This website was built using HTML, CSS, and JavaScript.</p>
+                        </div>
+
+                        <div class="project">
+                            <u><strong><a href="#project2">Computational Fluid Flow Simulation</a></strong></u>
+                            <p>A computational fluid flow simulation using Python and NumPy.</p>
+                        </div>
+
+                        <div class="project">
+                            <u><strong><a href="roguewaves.html">Rogue Wave Formation & Energy Exploration</a></strong></u>
+                            <p>Rogue Wave formation and energy exploration using MATLAB and Python.</p>
+                        </div>
+
+                        <div class="project">
+                            <u><strong><a href="floodanalysis.html">Flood Analysis using CDFs</a></strong></u>
+                            <p>Bivariate Flood Model analysis and 3D visualizations.</p>
+                        </div>
+
                 </div>
 
+
+
+                <!-- Column 2: Carousel -->
                 <div class="col-md-8 mx-auto">
                     <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
@@ -129,15 +152,17 @@
                         <a class="carousel-control-next" href="#homeCarousel" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span></a>
                         
                     </div>
-  
+
+
+
+
+
+                </div>
             </div>
         </div>
+    
 
 
-
-        
-        
-      
 
 
 

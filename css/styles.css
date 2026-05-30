@@ -1,4 +1,4 @@
-:root {
+    :root {
             --primary-navy: #12193C;
             --secondary-blue: #325582;
             --accent-blue: #7487AA;
@@ -9,6 +9,7 @@
 
             --text-main: #232F43;
             --text-light: #7487AA;
+
         } 
 
 
@@ -53,30 +54,64 @@
         } 
 
         .center {
-
             text-align: center;
+
         }
 
-        .about-section { margin-left: 40px; }
 
-    .carousel, .carousel-inner, .carousel-item, .col-md-4, .col-md-8 {
-            height: 600px;
+        .about-section { 
+            margin-left: 40px; 
+        }
+
+        .carousel, .carousel-inner, .carousel-item, .col-md-4, .col-md-8 {
+                height: 500px;
         }
 
         
-    .carousel-item img {
-        /* object-fit: contain; */
-         height: 100%;
+        .carousel-item img {
+            /* object-fit: contain; */
+            height: 100%;
             width: 100%;
+        }
+
+        .carousel-control-prev-icon, .carousel-control-next-icon {
+            background-color: rgba(37, 45, 54, 0.484); /* Change background color */
+            width: 3rem; /* Make icons larger */
+            height: 3rem;
+            border-radius: 50%;
+        }
+
+
+
+
+
+
+    .project {
+        margin-bottom: 15px; /* Space between projects */
     }
 
-    .carousel-control-prev-icon, .carousel-control-next-icon {
-        background-color: rgba(37, 45, 54, 0.484); /* Change background color */
-        width: 3rem; /* Make icons larger */
-        height: 3rem;
-        border-radius: 50%;
+    strong {
+        font-size: 1.2em; /* Slightly larger bold text */
+    }
+
+    a {
+        text-decoration: none; /* Remove underline from links */
+        color: inherit; /* Use the parent color */
+    }
+
+    a:hover {
+        text-decoration: underline; /* Optional: underline on hover */
+    }
+
+    p {
+        margin: 0; /* Remove margin for p elements */
+        padding: 0; /* Remove padding */
     }
 
 
 
-
+    .left-button {
+            position: absolute;  /* Use absolute positioning */
+            left: 20px;         /* Distance from the left */
+            top: 20px;          /* Distance from the top */
+        }
