@@ -110,9 +110,9 @@
 
 
 
-    .left-button {
+    .right-button {
             position: absolute;  /* Use absolute positioning */
-            left: 20px;         /* Distance from the left */
+            right: 20px;         /* Distance from the left */
             top: 20px;          /* Distance from the top */
         }
 
