@@ -16,4 +16,4 @@ A personal portfolio website showcasing projects and skills.
 2. Navigate using the menu.
 
 ## Credits & License
-Created by Chapman Lane Ellisor, 
+Created by Chapman Lane Ellisor.
