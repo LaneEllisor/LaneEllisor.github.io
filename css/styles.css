@@ -86,27 +86,27 @@
 
 
 
-    .project {
-        margin-bottom: 15px; /* Space between projects */
-    }
+        .project {
+            margin-bottom: 15px; /* Space between projects */
+        }
 
-    strong {
-        font-size: 1.2em; /* Slightly larger bold text */
-    }
+        strong {
+            font-size: 1.2em; /* Slightly larger bold text */
+        }
 
-    a {
-        text-decoration: none; /* Remove underline from links */
-        color: inherit; /* Use the parent color */
-    }
+        a {
+            text-decoration: none; /* Remove underline from links */
+            color: inherit; /* Use the parent color */
+        }
 
-    a:hover {
-        text-decoration: underline; /* Optional: underline on hover */
-    }
+        a:hover {
+            text-decoration: underline; /* Optional: underline on hover */
+        }
 
-    p {
-        margin: 0; /* Remove margin for p elements */
-        padding: 0; /* Remove padding */
-    }
+        p {
+            margin: 0; /* Remove margin for p elements */
+            padding: 0; /* Remove padding */
+        }
 
 
 
@@ -115,3 +115,24 @@
             left: 20px;         /* Distance from the left */
             top: 20px;          /* Distance from the top */
         }
+
+
+        html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+}

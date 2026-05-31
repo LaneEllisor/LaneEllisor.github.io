@@ -1,6 +1,6 @@
-<!-- Skills Page  -->
+<!-- Sphere in Stratified Fluids  -->
 <!-- Author: Lane Ellisor -->
-<!-- Last Edited: 06/16/2026-->
+<!-- Last Edited: 06/30/2026-->
 
 <!DOCTYPE html>
 
@@ -20,13 +20,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
    
     <!-- Page Title -->
-    <title> Skills </title>
+    <title> Sphere in Stratified fluids </title>
 
 </head>
 
 <body>
-
-    <!-- header -->
+         <!-- header -->
     <header>
         <div class="container">
             <div class="row">
@@ -48,8 +47,9 @@
 
 
 
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
 
             <div class="container">
 
@@ -69,37 +69,57 @@
                     </ul>
                 </div>
             </div>
-
-            <span class="navbar-text me-5">
+             <span class="navbar-text me-5">
                     <a role="button" data-bs-toggle="modal" data-bs-target="#loginModal"><i class="fa-solid fa-right-to-bracket"></i> Login</a>
             </span>
 
-            
+        </nav>
 
 
 
-    </nav>
 
-    <!-- Main Content -->
+
+
+
+    <!-- Main Content 
+     -->
     <main>
         <div class="container">
             <div class="row">
-                <div class="col mt-3">
-                    <h2>My Skills</h2>
-                    <p>Here are some of the skills I have developed:</p>
-                    
+                <div class="col-6 mt-3">
+                    <h2>Sphere in Stratified Fluids </h2>
+                    <p> <em> Author: Lane Ellisor  </em> </p>
+                    <p> We investigate how a solid sphere settles through fluids with sharp density differences using Euler Advection. </p>
+                    <h3> Project Outcomes </h3>
+                    <p> My Masters Thesis studies how solid particles (such as small spheres) move and settle through fluids that have different density layers. Sharp changes in fluid density, called density transition layers, can slow down particles and cause them to remain at these layers for longer periods.
+                        Previous research has shown that factors such as fluid density differences and particle properties can affect settling behavior, but many existing models are complex and difficult to use for numerical simulations. To address this, the thesis develops a simpler mathematical model based on fundamental physical principles. The model focuses on a solid sphere moving through two layers of miscible fluids with different densities under low-speed flow conditions.
+                        By simplifying the effects of fluid mixing and particle structure, the study examines how entrained fluid around the sphere influences its motion and residence time at density interfaces. The model's predictions are compared with experimental results to evaluate its accuracy and effectiveness. Overall, the research provides a practical approach for understanding particle transport in stratified environments such as oceans, lakes, and rivers.        </div>
 
-                    <ul>
-                        <li>Python Programming</li>
-                        <li>Computational Physics</li>
-                        <li>Fluid Modeling</li>
-                        <li>Mathematical Analysis</li>
-                    </ul>
 
+                <div class="col">
+                    <img class="img-thumbnail" src="img/sphere_timemodel.png" alt="sphere layer " />
+                    <p> Each blue line represents the location of the stratified layer as the sphere falls through it. </p>
                 </div>
+
+                <div class="col-4">
+                    
+                    <img class="img-thumbnail" src="img/sphere_expvmodel.png" alt="experimental velocity" />
+                    <p> We compare the model velocity to experimental data provided by UNC. </p>
+
+                    <img class="img-thumbnail" src="img/stratforce.png" alt="stratification force" />
+                    <p> The stratification force evolution over time. </p>
+                </div>
+
+                <p> The thesis can be found <a href="http://hdl.handle.net/10339/109416 " target="_blank" > <strong> here </strong> </a>. 
+
+                <p> <strong> Tools & Skills: </strong> Python, Data Visualization,  Multivariate Analysis. </p>
+                
             </div>
         </div>
     </main>
+
+
+
 
 
 
@@ -124,11 +144,12 @@
                     <h4>Social</h4>
                     <a href="https://github.com/LaneEllisor" target="_blank" ><i class="fa-brands fa-github fa-xl"></i></a>
                     <a href="https://www.linkedin.com/in/chapman-lane-ellisor/" target="_blank"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+
                 </div>
 
+        
            </div>
         </div>
     </footer>
-
 
 </html>
