@@ -1,0 +1,77 @@
+                <!-- Column 1: Project List
+                <div class="col-md-4 mt-3">
+                    <h2>My Projects</h2>
+                        <p>Here are some of my most recent projects:</p>
+                        
+                       
+                        <div class="project">
+                            <u> <strong><a href="home.html">Website Development with HTML</a></strong></u>
+                            <p>This website was built using HTML, CSS, and JavaScript.</p>
+                        </div>
+
+                        <div class="project">
+                            <u><strong><a href="sphere.html">Computational Fluid Flow Simulation</a></strong></u>
+                            <p>A computational fluid flow simulation using Python and NumPy.</p>
+                        </div>
+
+                        <div class="project">
+                            <u><strong><a href="roguewaves.html">Rogue Wave Formation & Energy Exploration</a></strong></u>
+                            <p>Rogue Wave formation and energy exploration using MATLAB and Python.</p>
+                        </div>
+
+                        <div class="project">
+                            <u><strong><a href="floodanalysis.html">Flood Analysis using CDFs</a></strong></u>
+                            <p>Bivariate Flood Model analysis and 3D visualizations.</p>
+                        </div>
+
+                        <div class="project">
+                            <u><strong><a href="#personalfinancedashboard">Personal Finance Dashboard </a></strong></u>
+                            <p> Created a personal finance dashboard using javascript and html. </p>
+                        </div>
+
+                
+
+
+                     
+                       
+                        
+
+
+
+                </div> -->
+
+                <!-- Column 2: Project Images -->
+                <!-- <div class="col-md-4 mt-3">
+
+                    <div >
+                        <img class="d-block" height="300" src="img/phasediagram.png" alt="Phases" />
+                        <p class="d-none d-sm-block"> Phase Diagram from Project 2</p>
+                    <div>
+
+                     <div >
+                        <img class="d-block" height="300" src="img/heightrw.png" alt="Height" />
+                        <p class="d-none d-sm-block"> Wave height from Project 3</p>
+                    </div>
+
+
+                    <div >
+                        <img class="d-block" height="300" src="img/solitonmesh.png" alt="Soliton" />
+                        <p class="d-none d-sm-block"> Soliton Mesh project 3</p>
+                    </div>  -->
+
+                    <!-- <div class="col-md-4 mt-3">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-3"><img src="img/phasediagram.png" class="img-fluid" /></div>
+                                <div class="col-3"><img src="img/heightrw.png" class="img-fluid" /></div>
+                                
+                            </div>
+
+                            <div class="row">
+                                <div class="col-3"><img src="img/solitonmesh.png" class="img-fluid" /></div>
+                                <div class="col-3"><img src="img/fields.png" class="img-fluid" /></div>
+                            </div>
+
+                           
+                        </div>
+                    </div> -->

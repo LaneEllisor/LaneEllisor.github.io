@@ -17,3 +17,10 @@ A personal portfolio website showcasing projects and skills.
 
 ## Credits & License
 Created by Chapman Lane Ellisor.
+
+What to add in git message: 
+
+feat: add about page and profile section
+fix: correct footer overlap issue
+docs: update readme with setup steps
+style: clean up CSS formatting

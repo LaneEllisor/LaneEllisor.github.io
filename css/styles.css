@@ -62,25 +62,25 @@
         .about-section { 
             margin-left: 40px; 
         }
-
+/* 
         .carousel, .carousel-inner, .carousel-item, .col-md-4, .col-md-8 {
                 height: 500px;
         }
 
         
         .carousel-item img {
-            /* object-fit: contain; */
+            
             height: 100%;
             width: 100%;
         }
 
         .carousel-control-prev-icon, .carousel-control-next-icon {
-            background-color: rgba(37, 45, 54, 0.484); /* Change background color */
-            width: 3rem; /* Make icons larger */
+            background-color: rgba(37, 45, 54, 0.484); 
+            width: 3rem; 
             height: 3rem;
             border-radius: 50%;
         }
-
+ */
 
 
 
@@ -136,3 +136,4 @@ main {
 footer {
   flex-shrink: 0;
 }
+
