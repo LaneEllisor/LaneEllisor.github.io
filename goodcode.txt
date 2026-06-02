@@ -75,3 +75,96 @@
                            
                         </div>
                     </div> -->
+
+
+                    <!-- Column 2: Carousel 
+                <div class="col-md-5 mx-auto">
+                    <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                                    
+                            <div class="carousel-item active text-center">
+                                <img class="d-block w-100" src="img/phasediagram.png" alt="Phases" />
+                                <p class="d-none d-sm-block"> Phase Diagram from Project 2</p>
+                            </div>
+
+
+                            <div class="carousel-item text-center">
+                                <img class="d-block w-100" src="img/heightrw.png" alt="Height" />
+                                <p class="d-none d-sm-block"> Wave height from Project 3</p>
+                            </div>
+
+
+                            <div class="carousel-item text-center">
+                                <img class="d-block w-100" src="img/solitonmesh.png" alt="Soliton" />
+                                <p class="d-none d-sm-block"> Soliton Mesh project 3</p>
+                            </div> 
+
+                        </div>
+
+                        <a class="carousel-control-prev" href="#homeCarousel" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+                        <a class="carousel-control-next" href="#homeCarousel" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span></a>
+                        
+                    </div>
+                </div>
+                --> 
+
+
+
+                        <!-- Images -->
+                        <!-- <div class="col-md-8  mt-4">
+                            <div class="d-flex flex-wrap"> -->
+                            <!-- <div class="w-50 p-1"><img src="img/phasediagram.png" class="w-100 h-100" style="object-fit:cover;" /></div>
+                            <div class="w-50 p-1"><img src="img/heightrw.png" class="w-100 h-100" style="object-fit:cover;" /></div>
+                            <div class="w-50 p-1"><img src="img/solitonmesh.png" class="w-100 h-100" style="object-fit:cover;" /></div>
+                            <div class="w-50 p-1"><img src="img/fields.png" class="w-100 h-100" style="object-fit:cover;" /></div> -->
+<!-- 
+                            <div class="w-50 p-1">
+                                <img src="img/phasediagram.png"
+                                    class="img-fluid"
+                                    style="width:100%; height:auto;">
+                            </div>
+
+                            <div class="w-50 p-1">
+                                <img src="img/heightrw.png"
+                                    class="img-fluid"
+                                    style="width:100%; height:auto;">
+                            </div>
+
+                            <div class="w-50 p-1">
+                                <img src="img/solitonmesh.png"
+                                    class="img-fluid"
+                                    style="width:100%; height:auto;">
+                            </div>
+
+                            <div class="w-50 p-1">
+                                <img src="img/fields.png"
+                                    class="img-fluid"
+                                    style="width:100%; height:auto;">
+                            </div>
+
+
+
+
+                            
+                            </div>
+                        </div>
+                        </div>
+
+
+
+                </div> -->
+<form >
+
+                        <div>
+                            <label for="name">First and Last name:</label><br>
+                            <input type="text" id="name" name="name" value="John Doe">
+                        </div> 
+
+                        <div>
+                            <label for="message">Message:</label><br>
+                            <input type="text" id="message" name="message" value="Message Here">
+                        </div>
+                        
+                        <input type="submit" value="Submit">
+
+                    </form>
