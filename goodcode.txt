@@ -5,7 +5,7 @@
                         
                        
                         <div class="project">
-                            <u> <strong><a href="home.html">Website Development with HTML</a></strong></u>
+                            <u> <strong><a href="index.html">Website Development with HTML</a></strong></u>
                             <p>This website was built using HTML, CSS, and JavaScript.</p>
                         </div>
 
