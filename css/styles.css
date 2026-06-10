@@ -177,3 +177,10 @@ input[type=text_message], select {
   border-radius: 4px;
   box-sizing: border-box;
 }
+
+.resizable-image {
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
+            margin: auto;
+        }
