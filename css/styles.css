@@ -178,3 +178,21 @@ input[type=text_message], select {
   box-sizing: border-box;
 }
 
+
+
+.breadcrumb {
+  background: transparent;
+  margin-top: 30px;
+  justify-content: left;
+
+  border: 1px solid hsl(0deg 0% 90%);
+  border-radius: 4px;
+  margin-left: 50px;
+
+}
+.breadcrumb-item a {
+  color: var(--accent-blue); /* Change link color */
+}
+.breadcrumb-item.active {
+  color: #ffffff; /* Color for active item */
+}
