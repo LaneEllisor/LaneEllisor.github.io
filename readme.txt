@@ -24,3 +24,9 @@ feat: add about page and profile section
 fix: correct footer overlap issue
 docs: update readme with setup steps
 style: clean up CSS formatting
+
+git init - start git
+git add . — stage your changes
+git commit -m "Your message" — save them locally
+git push origin main — send your commits to GitHub
+
