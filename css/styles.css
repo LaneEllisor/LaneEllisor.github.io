@@ -180,7 +180,7 @@ input[type=text_message], select {
   color: var(--accent-blue); /* Color for active item */
 }
 
-.headerimage { 
+/* #headerimage { 
 
-    object-fit: contain;
-}
+    object-fit: fill;
+} */
