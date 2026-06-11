@@ -170,8 +170,6 @@ input[type=text_message], select {
 
   border: 1px solid hsla(0, 0%, 90%, 0.542);
 
-
-
 }
 .breadcrumb-item a {
   color: var(--primary-navy); /* Change link color */
@@ -180,7 +178,7 @@ input[type=text_message], select {
   color: var(--accent-blue); /* Color for active item */
 }
 
-/* #headerimage { 
+#headerimage { 
 
-    object-fit: fill;
-} */
+    border-radius: 50%;
+}
