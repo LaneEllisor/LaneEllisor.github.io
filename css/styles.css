@@ -182,3 +182,8 @@ input[type=text_message], select {
 
     border-radius: 50%;
 }
+
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: opacity 0.5s 0.5s ease; 
+  opacity: 0;
+}
