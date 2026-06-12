@@ -178,12 +178,9 @@ input[type=text_message], select {
   color: var(--accent-blue); /* Color for active item */
 }
 
-#headerimage { 
-
-    border-radius: 50%;
-}
 
 [placeholder]:focus::-webkit-input-placeholder {
   transition: opacity 0.5s 0.5s ease; 
   opacity: 0;
 }
+
