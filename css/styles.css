@@ -184,3 +184,10 @@ input[type=text_message], select {
   opacity: 0;
 }
 
+.header-logo {
+  height: 3rem;      /* Adjust as needed */
+  width: auto;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
