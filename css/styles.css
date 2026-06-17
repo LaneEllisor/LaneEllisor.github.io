@@ -104,6 +104,7 @@
             height: 100%;
             margin: 0;
             padding: 30px 0;
+            /* background-color: var(--slate-blue); */
             }
 
     body {
@@ -190,4 +191,8 @@ input[type=text_message], select {
   object-fit: contain;
   vertical-align: left;
 }
+
+
+
+
 
